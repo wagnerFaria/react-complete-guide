@@ -23,6 +23,11 @@ class Person extends Component {
                 <input type="text" onChange={this.props.changed} value={this.props.name} />
             </div>
         );
+        // return [
+        //     <p key="1" onClick={this.props.click}>I'm {this.props.name}! And i'm {this.props.age}</p>,
+        //     <p key="2">{this.props.children}</p>,
+        //     <input key="3" type="text" onChange={this.props.changed} value={this.props.name} />
+        // ];
     }
 }
 
